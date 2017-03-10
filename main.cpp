@@ -1,18 +1,11 @@
-#include <iostream>
+ #include "sdt.h"
 
-using namespace std;
-
-int main()
-{
-    int x, y, sum, pr, razn, chastn; //объявление
-
-    setlocale(LC_ALL, "Russian"); //руссификация командной строки
-
-    cout<<"Введите два целых числа через пробел "; //Приглашение
-    cin >> x>>y; //прочитать два целых числа
-    sum = x+y;
-    cout <<"Сумма чисел\n"<<sum;
-
-    getchar();
-    return 0; //показывает, что программа успешно завершена
-}
+ // This program is just an example one under VCS.
+ int main()
+ {
+ int a, b;
+ cout << "Enter A and B: ";
+ cin >> a >> b;
+ cout << "A + B = " << a + b << '\n';
+ cout << "A - B = " << a - b << '\n';
+ }
